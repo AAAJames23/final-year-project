@@ -1,0 +1,7 @@
+The expected outputs from this project include:
+1.	A functional access control system: This prototype should demonstrate the integration of IoT technology with an electromagnetically actuated door locking system. It should allow users to remotely grant/restrict access to and monitor sensitive areas or locations.
+2.	Secure Web App: A user-friendly web application interface should be developed to facilitate remote control and monitoring of the access control system. This interface should enable users to manage access permissions and receive real-time status updates.
+3.	Electronic Control Circuit: An electronic control circuit should be designed and constructed to receive user instructions from the web interface and transmit operational status back to the interface. It should ensure seamless communication between the web app and the door locking system.
+4.	Project Prototype: The construction and assembly of a complete project prototype for testing and performance evaluation, ensuring that all components work together seamlessly and reliably.
+5.	Performance Evaluation Report: A comprehensive report detailing the performance evaluation of the access control system prototype. This report should include assessments of reliability, efficiency, security, and usability.
+6.	Documentation: Detailed documentation should be provided, including system architecture, circuit diagrams, software code, user manuals, and any relevant technical specifications. This documentation will be essential for understanding and replicating the project's outcomes.
