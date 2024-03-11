@@ -103,18 +103,15 @@ const SignUp = () => {
     navigate("/verify-mail");
   };
   return (
-    <div className="bg-white font-lexend w-full h-screen flex flex-col gap-8 justify-start items-center">
-      {/* <div className="w-[315px] h-[60px] mt-8">
-        <img src={Logo} alt="" className="w-full h-full bg-cover" />
-      </div> */}
-      <div className="w-1/2  px-16 pt-6 pb-6 bg-white shadow-2xl rounded-lg">
+    <div className="bg-white font-lexend w-full flex flex-col gap-8 justify-center items-center">
+      <div className="mds:w-[40%] mx-4 px-1 pt-6 pb-6 bg-white shadow-2xl rounded-lg flex flex-col justify-center items-center">
         <h4 className="text-[36px] text-center font-bold text-[#39718F]">
           Welcome to Akinsanya's Project!
         </h4>
         <h4 className="text-[16px] text-center text-[#645D5D]">
           Create an account and get started.
         </h4>
-        <form className="w-full px-8 mt-2 pt-4" onSubmit={handleSubmit}>
+        <form className="w-[80%] mt-2 pt-4" onSubmit={handleSubmit}>
           <div className="flex w-full justify-between items-center gap-2">
             <div className="flex flex-col w-full">
               <label className="text-[#3B3F42] font-bold text-[16px]  ">

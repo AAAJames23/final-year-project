@@ -51,18 +51,15 @@ const Login = () => {
     navigate("/");
   };
   return (
-    <div className="bg-white font-lexend w-full h-screen flex flex-col gap-28 justify-start items-center">
-      {/* <div className="w-[315px] h-[60px] mt-8">
-        <img src={Logo} alt="" className="w-full h-full bg-cover" />
-      </div> */}
-      <div className="w-1/2 pt-6 px-16 pb-12 bg-white shadow-2xl rounded-lg">
+    <div className="bg-white font-lexend w-full h-screen flex flex-col gap-8 justify-center items-center">
+      <div className="mds:w-[40%]  px-1 pt-6 pb-6 bg-white shadow-2xl shadow-gray-500/80 rounded-lg flex flex-col justify-center items-center">
         <h4 className="text-[36px] text-center font-bold text-[#39718F]">
           Welcome back!
         </h4>
         <h4 className="text-[16px] text-center text-[#645D5D]">
           Log in to your account and get tutored.
         </h4>
-        <form className="w-full px-8 mt-2 pt-8" onSubmit={handleSubmit}>
+        <form className="mds:w-[80%] px-8 mt-2 pt-8" onSubmit={handleSubmit}>
           <div className="flex flex-col w-full">
 
           <label className="text-[#3B3F42] font-bold text-[16px] ">Email</label>

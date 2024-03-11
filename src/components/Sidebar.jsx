@@ -12,10 +12,7 @@ const Sidebar = () => {
     else if (location.pathname === "/home") setActiveButton(2);
   }, [location.pathname]);
   return (
-    <div className=" w-1/5 flex flex-col border-r font-lexend border-[#FF8C42] shadow-lg shadow-gray-400/50 h-full justify-start px-4 items-start pt-[%] bg-white">
-      {/* <div className="w-[210px] h-[40px]">
-        <img src={Logo} alt="" className="w-full h-full bg-cover" />
-      </div> */}
+    <div className=" hidden w-1/5 mds:flex flex-col border-r font-lexend border-[#FF8C42] shadow-lg shadow-gray-400/50 h-full justify-start px-4 items-start pt-[%] bg-white">
       <div className="pt-4 w-full flex flex-col  justify-start items-center">
         <div className="flex gap-2 flex-col pb-[80px] text-[#FF8C42] justify-start w-full text-[24px] font-extrabold">
         <h1 className="text-blue">Final Year Project</h1>
